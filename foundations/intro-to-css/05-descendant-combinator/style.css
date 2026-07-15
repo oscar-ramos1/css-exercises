@@ -1,1 +1,11 @@
-/* Add CSS Styling */
+.container .text{
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+/*Other valid options for selecting these same elements using descendant combinators:
+div p
+div .text
+.container p 
+So, mixing type selectors with class selectors works as well*/
